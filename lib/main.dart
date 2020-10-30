@@ -12,7 +12,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Util flameUtil = Util();
   await flameUtil.fullScreen();
-  await flameUtil.setOrientation(DeviceOrientation.portraitUp);
+  await flameUtil.setOrientation(DeviceOrientation.landscapeLeft);
 
 
   // runApp(MaterialApp(
